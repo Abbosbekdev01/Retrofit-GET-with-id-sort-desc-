@@ -1,8 +1,8 @@
 package uz.abbosbek.headerapp.models
 
 data class Post(
-    val userId: Int,
-    val id: Int,
-    val title: String,
-    val body: String
+    var userId: Int? = null,
+    val id: Int? = null,
+    val title: String? = null,
+    val body: String? = null
 )

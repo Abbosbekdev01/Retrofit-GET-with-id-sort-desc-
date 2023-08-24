@@ -7,10 +7,14 @@
         android:color="@color/black"
         android:dashWidth="@dimen/_2sdp" />
 
-    <solid android:color="#ECFA6A" />
+    <solid android:color="#FFEB3B" />
 
     <corners
         android:topLeftRadius="@dimen/_16ssp"
         android:topRightRadius="@dimen/_16ssp" />
+
+    <size
+        android:width="@dimen/_100sdp"
+        android:height="@dimen/_100sdp" />
 
 </shape>
